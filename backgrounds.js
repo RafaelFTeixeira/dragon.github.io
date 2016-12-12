@@ -81,11 +81,6 @@ var predio = {
 
     },
     inserir: function (count) {
-        // var nPredio = this.nPredio;
-        // this.nPredio++;
-        // if (this.nPredio > 0) {
-        //     this.nPredio = 0;
-        // }
         this.predios.unshift({
             x: this.x + (this.largura + (count * 160)),
             y: this.y - (count * 70),
