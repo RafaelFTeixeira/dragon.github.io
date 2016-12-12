@@ -1,0 +1,38 @@
+        body {
+            height: 100%;
+            overflow: hidden;
+            background-color: black;
+                        color: white;
+        }
+        
+        #canvas {
+            background-color: white;
+            padding-left: 0;
+            padding-right: 0;
+            display: none;
+            margin: -10px;;
+        }
+        
+        #menu {
+            margin-top: 10%;
+            margin-left: 40%;
+        }
+        
+        #menu img {
+            margin: auto;
+            border-radius: 20px;
+            border: 5px solid black;
+            width: 350px;
+            height: 350px;
+        }
+        
+        #menu img:hover {
+            border: 5px solid red;
+        }
+        .footer{
+             position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+        }

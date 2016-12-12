@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>ToyGame</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="icoGame.ico">
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+
+<body>
+    <div id="menu">
+        <h3 style="color: red;" id="userName"></h3>
+        <h2>Clica no personagem para começar</h2>
+        <div style="float: left;margin-left: -200px;" title="-Leafar" onclick="Start(event)"><img alt="LeafarAnimation" src="Leaf.png" /></div>
+        <div onclick="Start(event)"><img alt="TioRafaAnimation" src="TioRafa.png" /></div>
+    </div>
+    <div class="footer">
+        <label>-Leafar</label>
+        <label style="float: right;margin-right: 10px;">V: 0.1</label>
+    </div>
+    <canvas width="1280" height="720" id='canvas'></canvas>
+    <script src="game.js"></script>
+    <script src="backgrounds.js"></script>
+    <script src="monster.js"></script>
+    <script src="player.js"></script>
+    <script src="gun.js"></script>
+    <script src="pause.js"></script>
+</body>
+
+</html>
