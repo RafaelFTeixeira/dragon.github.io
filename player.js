@@ -28,7 +28,7 @@ var player = {
     },
     atualizar: function () {
         if (this.life <= 0) {
-            setCookie("gameOver", "true", 30);7
+            setCookie("gameOver", "true", 30);
             isPaused = true;
             location.reload();
         }

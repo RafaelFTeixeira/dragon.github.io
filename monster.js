@@ -9,23 +9,12 @@ var monster = {
     x: canvas.width,
     y: 0,
     velocidade: 1.5,
-    timeMonster: 2000,
+    timeMonster: 1500,
     monsters: [],
     desenhar: function () {
         this.img.src = "itens/dragonRed.gif";
         for (var index = 0; index < this.monsters.length; index++) {
             var mons = this.monsters[index];
-            //drawImage(img, sx, sy, sw, sh, dx, dy, dw, dh)
-            //  ctx.fillRect(mons.x,mons.y,mons.largura,mons.altura);
-            // ctx.strokeRect(mons.x, mons.y, mons.largura, mons.altura);
-            // ctx.font = "14px Arial";
-            // ctx.fillText("x1: " + mons.x, mons.x, mons.y - 2);
-            // ctx.fillText("x2: " + (mons.x + mons.largura), mons.x + mons.largura - 40, mons.y - 20);
-            // ctx.fillText("largura: " + mons.largura, mons.x, mons.y + mons.altura + 10);
-            // ctx.fillText(" y1: " + mons.y, mons.x + mons.largura, mons.y + 12);
-            // ctx.fillText(" y2: " + (mons.y + mons.altura), mons.x + mons.largura, mons.y + mons.altura);
-            // ctx.fillText("altura: " + mons.altura, mons.x - 60, mons.y + 50);
-            // ctx.strokeRect(mons.x, mons.y, mons.largura, mons.altura);
             ctx.drawImage(this.img, mons.largura * mons.imagemRender, 0, mons.largura, mons.altura, mons.x, mons.y, mons.largura, mons.altura);
         }
 
